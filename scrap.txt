@@ -1,0 +1,15 @@
+foreach($user_arr as $serverName => $serverDetails){
+    echo $serverName . PHP_EOL;
+    foreach($serverDetails as $serverType => $details){
+        echo $serverType . PHP_EOL;
+        echo "ip: " . $details[0] . " | " ."location: " . $details[1] . PHP_EOL;
+        // foreach($details as $key => $value){
+        //     echo "ip: " . $details[0] . " | " ."location: " . $details[1] . PHP_EOL;
+        // }
+    }
+}
+
+foreach($user_arr[$host->alias] as $key => $value){
+    echo $key[1] . PHP_EOL;
+
+}
