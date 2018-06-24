@@ -1,2 +1,2 @@
-ignored_files/DbVars.php
-ignored_files/config.php
+config.php
+Classes/DbVars.php
